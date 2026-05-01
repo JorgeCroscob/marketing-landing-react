@@ -17,8 +17,8 @@ function Card() {
                     <h3> ⭐ Plano Growth —<br /> Gestão de Redes Sociais</h3>
 
                     <p>
-                        Gestão estratégica completa para <br />
-                        marcas que querem crescer com <br />
+                        Gestão estratégica completa para 
+                        marcas que querem crescer com 
                         consistência e autoridade.
                     </p>
                     <ul>
@@ -56,8 +56,8 @@ function Card() {
                     <h3> 🚀 Plano Start —<br /> Gestão de Redes Sociais</h3>
 
                     <p>
-                        Plano ideal para pequenos <br />
-                        negócios que estão começando <br />
+                        Plano ideal para pequenos 
+                        negócios que estão começando 
                         a se posicionar no digital.
                     </p>
                     <ul>
@@ -94,8 +94,8 @@ function Card() {
                     <h3> 👑 Plano Pro —<br /> Estratégia Digital Completa</h3>
 
                     <p>
-                        Estratégia digital avançada com <br />
-                        foco em resultados, tráfego e <br />
+                        Estratégia digital avançada com 
+                        foco em resultados, tráfego e 
                         conversão.
                     </p>
                     <ul>

@@ -26,6 +26,8 @@ font-size: 38px;
 export const CardContainer = styled.div`
 display: flex;
 justify-content: space-between;
+gap: 20px;  
+width: auto;
 @media (max-width: 768px) {
     flex-direction: column;
     gap: 20px;
@@ -51,7 +53,9 @@ ul {
 }  
 p{
   text-align: left;
+  
 }
+
  div {
     margin: 0px 20px; 
 }
@@ -63,17 +67,35 @@ p{
 h3 {
    color: white;
 }
+   @media (max-width: 1094px) {
+    div p {
+    font-size: 20px;
+    }
+    Buttonroxo {  
+    font-size: 20px;
+    a:hover {
+        font-size: 22px;
+        color:red;
+    }
+    p{
+    border: 1px solid red;
+  }
+    }
+   }
+
    @media (max-width: 768px) {
  flex-direction: column;
   width: 250;
+  gap: 15px;
   padding: 30px;
    div p {
-        font-size: 20px;
+        font-size: 15px;
         margin: 0 0 10px 0;
         color: white;
     }
 
-}
+
+    
 `
 
 export const Center = styled.div`
@@ -97,23 +119,37 @@ export const CardImg = styled.div<{ img: string }>`
 `
 export const Body = styled.div`
 margin: 5px 70px;
+@media (max-width: 920px) {
+  margin: 5px 20px;
+}
 @media (max-width: 768px) {
    margin: 5px 10px;
     }
 `
 export const Checkmark = styled.img`
- background-color: white;
- border-radius: 60%;
+ width: 16px;
+  height: 16px;
+  min-width: 16px; /* impede encolher */
+  object-fit: contain;
+
+  background-color: white;
+  border-radius: 60%;
+
 
 `
 export const Item = styled.li`
   display: flex;
-  align-items: center;
-  gap: 8px;
-
+  align-items: left; 
+  gap: auto;
+  line-height: 0.9;
+  padding: 5px 0; 
+  
   p {
-    margin: 0;
+    text-align: left;
+    font-size: 14px;  
   }
+    @media (max-width: 768px) {
+    
 `
 export const Informesevico = styled.div`
   display: flex;

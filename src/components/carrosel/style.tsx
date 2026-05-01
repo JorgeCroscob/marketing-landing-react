@@ -98,3 +98,22 @@ export const Avatar = styled.img`
   border-radius: 50%; /* 🔥 deixa redonda */
   object-fit: cover;
 `;
+export const Linha = styled.h1`
+  font-size: 20px;
+ &::after {
+    content: "";
+    display: block;
+
+    width: 80px;   /* tamanho da linha */
+    height: 3px;   /* espessura */
+
+    background-image: linear-gradient(to right,#4D1086,#A855F7); /* cor */
+
+    margin: 15px auto 0; /* centraliza */
+    border-radius: 2px;
+   
+  }
+     @media (max-width: 768px) {
+    line-height: 0.9;
+}
+`

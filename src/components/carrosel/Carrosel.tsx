@@ -9,7 +9,8 @@ import {
     Dots,
     Dot,
     Info,
-    Avatar
+    Avatar,
+    Linha
 } from "./style";
 
 const data = [
@@ -48,7 +49,7 @@ export default function Carousel() {
     return (
         <Container id="depoimentos">
             <h2>
-                O que nossos <span>clientes</span> dizem
+               < Linha > O que nossos <span>clientes</span> dizem </Linha>
             </h2>
 
             <Carrossel>

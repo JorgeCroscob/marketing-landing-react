@@ -4,6 +4,10 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     justify-content: space-between;
+    @media (max-width: 920px) {
+        display: flex;
+    flex-direction: row-reverse;
+    }
     @media (max-width: 768px) {
      display: flex;
     flex-direction: row-reverse;
@@ -13,18 +17,15 @@ export const Imgfundo = styled.img`
   width: 630px;
   height: auto;
   object-fit: cover;
-  @media (max-width: 768px){
-    width:200px;
-  }
-`;
-// export const Imgfundo = styled.img`
-//   width: 630px;
-//   height: auto;
 
-//   @media (max-width: 768px) {
-//     width: 100%;
-//   }
-// `;   
+  @media (max-width: 920px) {
+    width: 400px;
+  }
+
+  @media (max-width: 768px) {
+    width: 200px;
+  }
+`
 export const Dourado = styled.span`
     color: #D4AF37;    
     `
@@ -45,7 +46,7 @@ export const Paragrafo = styled.div`
     width: 600px;
     
    >p {
-  position: relative;
+    
   margin-top: 10px;
 
   &::after {
@@ -63,13 +64,28 @@ export const Paragrafo = styled.div`
     
   @media (max-width: 768px) {
     width:90vw;
-    position: absolute; /* 🔥 fica por cima */
+    
+     
+    
     z-index: 2; /* 🔥 garante que fica acima */
     color: white;
     h1{
         font-size:30px;
     }
     }
+    @media (max-width: 920px) {
+        width: auto;
+        h5{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+        p{
+        font-size: 14px;
+}
+
 `
 export const Caixa = styled.div`
     display: flex;
@@ -95,3 +111,13 @@ export const P2 = styled.span`
     font-size:10px;
     margin-left:5px;
     `    
+export const Posisao = styled.div`
+    @media (max-width: 768px) {
+    position: absolute;
+}
+    `
+
+
+
+
+    

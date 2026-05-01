@@ -17,13 +17,14 @@ display: flex;
 justify-content: space-between;
 position: relative;
 overflow: hidden;
-height: 525px;
+height: auto;
 
 &::before {
  content: "";
   position: absolute;
+  height: 100%;
   inset: 0;
-  background: url('/avaliacao.png') no-repeat left bottom;
+  // background: url('/avaliacao.png') no-repeat left bottom;
   background-size: 280px;
   pointer-events: none;
   
@@ -72,14 +73,15 @@ export const Dourado = style.span`
 color:#F5B439
 `
 export const Subtitulo = style.div`
-font-size: 18px;
+font-size: 14px;
 text-align: left;
 color:white;
 margin-bottom: 30px;
+line-height: 0.9;
 @media (max-width: 768px) {
 font-size: 12px;
 margin-bottom: 10px;
-line-height: 1;
+line-height: 1.4;
 }
 `
 export const Img = style.img`

@@ -4,6 +4,9 @@ export const Container = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    Button{
+    none;
+    }
 `;
 
 export const Logo = styled.img`
@@ -33,7 +36,7 @@ export const Menu = styled.div<{ open: boolean; isMobile: boolean }>`
 
         transform: ${({ open }) =>
             open ? 'translateX(0)' : 'translateX(100%)'};
-
+        text-align: left;
         transition: transform 0.3s ease;
 
         z-index: 1001;

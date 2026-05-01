@@ -1,20 +1,23 @@
-import { Container, Imgfundo, Dourado, P1, P2, Roxo, Paragrafo, Caixa } from './style.tsx';
+import { Container, Imgfundo,Posisao, Dourado, P1, P2, Roxo, Paragrafo, Caixa } from './style.tsx';
 import { useIsMobile } from './../../hooks/useIsMobile';
 export default function Sobre() {
     const isMobile = useIsMobile();
     return (
         <Container id="sobre">
-            
-                {!isMobile && <Imgfundo src="/imgsegundaria.png" alt="Imagem de fundo" />}
+            <div>
+         {!isMobile && <Imgfundo src="/imgsegundaria.png" alt="Imagem de fundo" />}
                 {isMobile && <Imgfundo src="/imgsegundariamobile.png" alt="Imagem de fundo" />}
 
+            </div>
+               
             <Paragrafo>
-                <h5><Roxo>SOBRE A AGÊNCIA</Roxo></h5>
+                    <Posisao>
+                            <h5><Roxo>SOBRE A AGÊNCIA</Roxo></h5>
                 <h1>Mais que posts <br />
                     Construímos  {isMobile && <br />} <Dourado>marcas fortes.</Dourado> </h1>
                {!isMobile && <div>
-                <p>Na Agencia Acelerar, unimos estratégia, criatividade e análise<br />
-                    para transformar perfis em verdadeiros ativos de crescimento.<br />
+                <p>Na Agencia Acelerar, unimos estratégia, criatividade e análise
+                    para transformar perfis em verdadeiros ativos de crescimento.
                     Nosso compromissi é com resultado, clareza e paeceria.</p>
                 <Caixa>
                     <Caixa>
@@ -48,6 +51,7 @@ export default function Sobre() {
 
                 </Caixa>
                 </div>}
+                    </Posisao>
             </Paragrafo>
 
         </Container>

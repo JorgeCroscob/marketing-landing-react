@@ -1,11 +1,11 @@
-import { Body, Container, Titulo,Botaoroxo, Dourado, Subtitulo,Container1 } from "./style";
+import { Body, Container, Titulo, Botaoroxo, Dourado, Subtitulo, Container1 } from "./style";
 import Button from './../button/Button';
 
 import { Img } from "./style";
 import { useIsMobile } from './../../hooks/useIsMobile';
 
 function Inicio() {
-     const scrollTo = (id: string) => {
+    const scrollTo = (id: string) => {
         document.getElementById(id)?.scrollIntoView({
             behavior: 'smooth',
         });
@@ -35,17 +35,22 @@ function Inicio() {
                                 <Button text="QUERO ACELERAR MINHA MARCA" />
                             </div>
                             <div>
-                                <a onClick={() => scrollTo("servicos")}><Botaoroxo><img src="/seta-para-baixo.png" alt="seta" />VER SERVIÇOS</Botaoroxo> </a>
-                                
+                                <a onClick={() => scrollTo("servicos")}>
+                                    <Botaoroxo>
+                                        <img src="/seta-para-baixo.png" alt="seta" />
+                                        VER SERVIÇOS
+
+                                    </Botaoroxo> </a>
+
                             </div>
                         </Container1>
-                   
+
 
                     </div>
                 </div>
 
                 <div>
-                    {!isMobile && <Img src="/imginicial.png" alt="" /> }
+                    {!isMobile && <Img src="/imginicial.png" alt="" />}
 
                 </div>
             </Container>
