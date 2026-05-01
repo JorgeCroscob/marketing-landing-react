@@ -41,9 +41,7 @@ function Card() {
                     <div>
                         <p><Dourado>R$ 600,00</Dourado>/mês</p>
                         <Buttonroxo text="QUERO ESSE PLANO" 
-                        plano="Plano Growth — Gestão de Redes Sociais.
-                        Gostaria de saber mais detalhes sobre a estratégia,
-                         entregas e como esse plano pode aumentar meu engajamento e resultados." />
+                        plano="Plano Growth — Gestão de Redes Sociais. Gostaria de saber mais detalhes sobre a estratégia, entregas e como esse plano pode aumentar meu engajamento e resultados." />
                     </div>
 
                 </Card1>
@@ -80,9 +78,7 @@ function Card() {
                     <div>
                         <p><Dourado>R$ 300,00</Dourado>/mês</p>
                         <Buttonroxo text="QUERO ESSE PLANO" 
-                        plano="Plano Start — Gestão de Redes Sociais.
-                        Quero entender melhor como funciona, valores 
-                        e como vocês podem ajudar no crescimento do meu perfil." />
+                        plano="Plano Start — Gestão de Redes Sociais. Quero entender melhor como funciona, valores e como vocês podem ajudar no crescimento do meu perfil." />
                     </div>
                 </Card1>
 
@@ -118,9 +114,7 @@ function Card() {
                     <div>
                         <p><Dourado>R$ 1.000,00</Dourado>/mês</p>
                         <Buttonroxo text="QUERO ESSE PLANO" 
-                        plano="Plano Pro — Estratégia Digital Completa.
-                        Quero entender como funciona o planejamento completo, 
-                        posicionamento e como vocês podem escalar meu negócio." />
+                        plano="Plano Pro — Estratégia Digital Completa. Quero entender como funciona o planejamento completo, posicionamento e como vocês podem escalar meu negócio." />
                     </div>
                 </Card1>
             </CardContainer>
