@@ -124,7 +124,7 @@ function Card() {
                         <img src="/flecha.png" />
                     </Center>
                     <p>
-                        <Dourado>Estratégis Personalizadas</Dourado> <br />
+                        <Dourado>Estratégias Personalizadas</Dourado> <br />
                         Planos feitos sob medida <br />
                         para o seu objetivo.
                     </p>
