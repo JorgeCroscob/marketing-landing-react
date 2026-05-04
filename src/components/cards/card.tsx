@@ -29,7 +29,7 @@ function Card() {
                             <p>Planejamento de conteúdo</p>
                         </Item>
                         <Item><Checkmark src="/vmark.png" alt="ok" />
-                            <p>Criação e design profissional</p>
+                            <p>Tráfego pago</p>
                         </Item>
                         <Item><Checkmark src="/vmark.png" alt="ok" />
                             <p>Gestão e publicação</p>
@@ -103,9 +103,6 @@ function Card() {
                         </Item>
                         <Item><Checkmark src="/vmark.png" alt="ok" />
                             <p>Tráfego pago e funil</p>
-                        </Item>
-                        <Item><Checkmark src="/vmark.png" alt="ok" />
-                            <p>Copywriting estratégico</p>
                         </Item>
                         <Item><Checkmark src="/vmark.png" alt="ok" />
                             <p>Relatórios e reuniões</p>
